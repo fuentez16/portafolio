@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina2</title>
+    <link rel="stylesheet" href="css/pagina2.css">
+</head>
+<body>
+  <div class="contenedor">
+    <header>
+       <img class="img1" src="img/ENCABEZADO.png" alt="">
+    </header>
+    <main>
+        <a href="index.html">Inicio</a>
+        <a href="pagina2.html">pagina2</a>
+        <a href="pagina3.html">pagina3</a>
+    </main>
+    <nav>
+        <h2>Formulario de Ingreso a la Escuela</h2>
+        <form action="/enviar" method="POST">
+        <label for="nombre">Nombre completo:</label>
+       <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+            
+       <label for="correo">Correo electrónico:</label>
+       <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo" required>
+            
+       <label for="grado">Grado a ingresar:</label>
+       <select id="grado" name="grado" required>
+        <option value="" disabled selected>Selecciona tu grado</option>
+        <option value="tercero">Cuarto</option>
+        <option value="cuarto">Quinto</option>
+        <option value="quinto">Sexto</option>
+       </select>
+            
+        <label for="nacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="nacimiento" name="nacimiento" required>
+        <input type="submit" value="Enviar">
+        </form>
+    </nav>
+    <nav class="esc">
+       <img src="img/marion.png" alt="">
+    </nav>
+    <section>
+        
+    </section>
+    <article>
+
+    </article>
+    <footer>
+      <p>Mi Portafolio 16/10/2024 Jaqueline Fuentes</p>
+    </footer>
+  </div>  
+</body>
+</html>

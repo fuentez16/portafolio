@@ -1,0 +1,62 @@
+.contenedor{
+    display: grid;
+    grid-template-columns:290px 290px 290px 290px 290px  ;
+    grid-template-rows:250px 50px 450px 50px;
+    grid-template-areas: 
+    'enc enc enc enc enc'
+    'enl movi  movi movi movi'
+    'enl inf inf gra gra'
+    'pie pie pie pie  pie'
+    ;
+}
+header{
+    background-color:black;
+    grid-area: enc;
+}
+main{
+    background-color: rgb(96, 189, 189);
+    grid-area: movi;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    background-color: rgb(81, 139, 224);
+    grid-area: enl;
+}
+
+article{
+    background-color: rgb(216, 199, 153);
+    grid-area: inf;
+}
+
+section{
+    background-color: rgb(123, 179, 179);
+    grid-area: gra;
+}
+footer{
+    background-color: rgb(80, 120, 126);
+    grid-area: pie;
+}
+.img1{
+    width: 1450px;
+    height: 250px;
+}
+a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: cornsilk;
+}
+.img2{
+    width: 580px;
+    height: 450px;
+    text-align: center;
+}
+.img3{
+    width: 580px;
+    height: 450px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    text-align: center;
+}
